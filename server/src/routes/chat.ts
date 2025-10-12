@@ -2,15 +2,14 @@ import express, { type Request, type Response } from "express";
 
 import { ChatMessage, genAI } from "@/llm";
 import { SYSTEM_PROMPT } from "@/prompts";
-import { searchProductsDefinition } from "@/tools";
-import { searchProducts } from "@/services";
+import { searchProductsTool } from "@/tools";
 
 const router = express.Router();
 
 const chatHistory: ChatMessage[] = [];
 
 const toolMap = {
-  search_products: searchProducts,
+  search_products: searchProductsTool.execute,
 };
 
 router.post("/chat", async (req: Request, res: Response) => {
@@ -29,7 +28,7 @@ router.post("/chat", async (req: Request, res: Response) => {
       systemInstruction: SYSTEM_PROMPT,
       tools: [
         {
-          functionDeclarations: [searchProductsDefinition],
+          functionDeclarations: [searchProductsTool.definition],
         },
       ],
     },

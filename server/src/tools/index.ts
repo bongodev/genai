@@ -1,6 +1,7 @@
 import { Type } from "@google/genai";
+import { searchProducts } from "@/services";
 
-export const searchProductsDefinition = {
+const searchProductsDefinition = {
   name: "search_products",
   description: "Search for products by name, description, or specifications",
   parameters: {
@@ -11,3 +12,10 @@ export const searchProductsDefinition = {
     required: ["query"],
   },
 };
+
+export const searchProductsTool = {
+  definition: searchProductsDefinition,
+  execute: async ({ query }: { query: string }) => {
+    return searchProducts({ query });
+  },
+}
