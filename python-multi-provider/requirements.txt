@@ -1,0 +1,6 @@
+google-genai==2.31.0
+pydantic==2.14.1
+zai-sdk==0.2.3
+
+# dev
+mypy==2.4.0
