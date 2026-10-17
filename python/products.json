@@ -1,0 +1,137 @@
+[
+  {
+    "id": "p001",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "category": "electronics",
+    "price": 199.99,
+    "rating": 4.6,
+    "in_stock": true,
+    "description": "Over-ear Bluetooth headphones with active noise cancelling and 30-hour battery."
+  },
+  {
+    "id": "p002",
+    "name": "Budget Earbuds",
+    "category": "electronics",
+    "price": 29.99,
+    "rating": 4.1,
+    "in_stock": true,
+    "description": "Lightweight wireless earbuds with a charging case and 6-hour battery."
+  },
+  {
+    "id": "p003",
+    "name": "UltraBook 14 Laptop",
+    "category": "electronics",
+    "price": 899.00,
+    "rating": 4.7,
+    "in_stock": true,
+    "description": "14-inch laptop with 16GB RAM, 512GB SSD and all-day battery life."
+  },
+  {
+    "id": "p004",
+    "name": "Student Laptop 15",
+    "category": "electronics",
+    "price": 449.00,
+    "rating": 4.2,
+    "in_stock": false,
+    "description": "15-inch laptop with 8GB RAM and 256GB SSD, good for school and browsing."
+  },
+  {
+    "id": "p005",
+    "name": "4K Monitor 27",
+    "category": "electronics",
+    "price": 329.50,
+    "rating": 4.5,
+    "in_stock": true,
+    "description": "27-inch 4K IPS monitor with USB-C power delivery."
+  },
+  {
+    "id": "p006",
+    "name": "Mechanical Keyboard",
+    "category": "accessories",
+    "price": 89.00,
+    "rating": 4.4,
+    "in_stock": true,
+    "description": "Tenkeyless mechanical keyboard with hot-swappable switches and RGB backlight."
+  },
+  {
+    "id": "p007",
+    "name": "Ergonomic Wireless Mouse",
+    "category": "accessories",
+    "price": 39.99,
+    "rating": 4.3,
+    "in_stock": true,
+    "description": "Vertical wireless mouse designed to reduce wrist strain."
+  },
+  {
+    "id": "p008",
+    "name": "USB-C Hub 7-in-1",
+    "category": "accessories",
+    "price": 49.99,
+    "rating": 4.0,
+    "in_stock": true,
+    "description": "Adds HDMI, two USB-A ports, SD card reader and 100W pass-through charging."
+  },
+  {
+    "id": "p009",
+    "name": "Running Shoes Pro",
+    "category": "sports",
+    "price": 129.00,
+    "rating": 4.5,
+    "in_stock": true,
+    "description": "Cushioned road running shoes with breathable mesh upper."
+  },
+  {
+    "id": "p010",
+    "name": "Yoga Mat Eco",
+    "category": "sports",
+    "price": 24.99,
+    "rating": 4.7,
+    "in_stock": true,
+    "description": "6mm non-slip yoga mat made from natural rubber."
+  },
+  {
+    "id": "p011",
+    "name": "Insulated Water Bottle 32oz",
+    "category": "sports",
+    "price": 22.00,
+    "rating": 4.8,
+    "in_stock": true,
+    "description": "Stainless steel bottle that keeps drinks cold for 24 hours."
+  },
+  {
+    "id": "p012",
+    "name": "Espresso Machine Mini",
+    "category": "kitchen",
+    "price": 149.00,
+    "rating": 4.2,
+    "in_stock": true,
+    "description": "Compact 15-bar espresso maker for single shots and lattes."
+  },
+  {
+    "id": "p013",
+    "name": "Cast Iron Skillet 10in",
+    "category": "kitchen",
+    "price": 34.50,
+    "rating": 4.9,
+    "in_stock": true,
+    "description": "Pre-seasoned cast iron pan, oven safe up to 500F."
+  },
+  {
+    "id": "p014",
+    "name": "Smart LED Desk Lamp",
+    "category": "home",
+    "price": 59.99,
+    "rating": 4.4,
+    "in_stock": false,
+    "description": "Dimmable desk lamp with adjustable colour temperature and USB charging port."
+  },
+  {
+    "id": "p015",
+    "name": "Ceramic Plant Pot Set",
+    "category": "home",
+    "price": 18.75,
+    "rating": 4.3,
+    "in_stock": true,
+    "description": "Set of three ceramic pots with drainage holes and bamboo trays."
+  }
+]
